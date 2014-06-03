@@ -1,0 +1,82 @@
+* {
+	font-family: arial;
+	margin:0;
+	padding:0;
+	display:;
+}
+input, label {
+	display: block;
+	vertical-align: top;
+}
+h1, h2 {
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+h1 {
+	font-size:45px;
+}
+h2 {
+	font-size: 30px;
+}
+form {
+	display: inline;
+}
+input {
+	display: inline;
+}
+body {
+	width: 600px;
+	margin: 0 auto;
+}
+div {
+	border-bottom: 1px solid black;
+}
+div:last-child {
+	border-bottom:none;
+}
+.quote {
+	padding: 10px;
+	font-style: italic;
+}
+.author {
+	margin: 0 0 0 200px;
+	padding: 10px;
+	font-style: none;
+}
+#content_wrapper, #quotes_wrapper{
+	border:1px solid black;
+	width:600px;
+	padding: 20px;
+}
+#quotes{
+	height: 300px;
+	overflow:auto;
+	padding:10px;
+}
+#name_box, #quote_box {
+	margin: 0 0 10px 10px;
+	border:1px solid black;
+	padding: 5px 10px;
+}
+#name_box {
+	width:475px;
+}
+#quote_box {
+	width:475px;
+	height: 150px;
+	resize:none;
+}
+#add_button, #skip_button {
+	border:1px solid black;
+	background-color: white;
+	padding: 5px;
+	width: 150px;
+	box-shadow: 2px 2px 0px 0px black;
+}
+#add_button {
+	margin: 0 0 0 95px;
+}
+#skip_button {
+	margin: 0 0 0 100px;
+}
